@@ -1,1 +1,1 @@
-# Make mongodb server's easier than ever!
+# Make mongodb servers easier than ever!
