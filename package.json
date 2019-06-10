@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "init": "pm2 start ecosystem.config.js ; echo 'started'",
-    "run": "node node/index.js",
-    "start": "pm2 start ecosystem.config.js && pm2 log enginx",
+    "run": "node node/index.js --nobuild --all",
+    "start": "npm run run",
     "dev": "npm run start",
     "debug": "docker exec -it mongodb /bin/bash",
     "debugv": "docker exec -it mongodbvolumes /bin/bash",
